@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #beffb4;
+  background: #902296;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2293,7 +2293,7 @@ body {
   background: url("https://img-blog.csdnimg.cn/31287b8e897d463c987a6ffd1d2dfd96.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 10% 10%;
+  background-position: 80% 10%;
   color: var(--text-color);
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
