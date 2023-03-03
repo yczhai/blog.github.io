@@ -178,7 +178,7 @@ body {
   background: var(--body-bg-color);
   color: var(--text-color);
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 1em;
+  font-size: 18em;
   line-height: 2;
 }
 @media (max-width: 991px) {
@@ -193,7 +193,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Roboto Slab', 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #902296;
+  background: #cf2973;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2290,10 +2290,10 @@ embed {
   white-space: nowrap;
 }
 body {
-  background: url("https://img-blog.csdnimg.cn/31287b8e897d463c987a6ffd1d2dfd96.png");
+  background: url("https://img-blog.csdnimg.cn/32f57f1f6d864346a0ee80b0ed52b6fe.jpeg#pic_center");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 80% 10%;
+  background-position: 54% 10%;
   color: var(--text-color);
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
@@ -2310,7 +2310,7 @@ body {
 }
 .content {
   padding-top: 15px;
-  opacity: 0.95;
+  opacity: 0.85;
 }
 .post-block {
   background: var(--content-bg-color);
