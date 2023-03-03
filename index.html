@@ -256,7 +256,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2023-03-03 15:43:24 / 修改时间：16:01:23" itemprop="dateCreated datePublished" datetime="2023-03-03T15:43:24+08:00">2023-03-03</time>
+              <time title="创建时间：2023-03-03 15:43:24 / 修改时间：19:31:59" itemprop="dateCreated datePublished" datetime="2023-03-03T15:43:24+08:00">2023-03-03</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -281,60 +281,16 @@
       
           <p>注：因为有博客不是修改时写的，部分代码没有进行备份，所以有些只能从git中获取代码，有些可能有点乱。</p>
 <p>同时因为每个人选的背景图片可能有所不同，主体颜色可能差异很大，需要调整的颜色可能比较多，这篇博客仅供参考，请自行选择是否替换背景。</p>
+<p>添加背景图片<br>H:\Hexo\themes\yilia\source\main.0cf68a.css，注释掉原有的背景颜色，添加照片：</p>
 <p>1.左侧边栏<br>取消上半部分的背景颜色<br>：themes&#x2F;yilia&#x2F;layout&#x2F;_partial&#x2F;left-col.ejs，如下：这是掉上面的一行代码，使用下面的</p>
-<!-- <div class="overlay" style="background: <%= theme.style && theme.style.header ? theme.style.header : defaultBg %>"> -->
-<!-- 左侧边栏（上半部分）不设置背景颜色 -->
-<div class="overlay" >
-1
-2
-3
-添加背景图片
-H:\Hexo\themes\yilia\source\main.0cf68a.css，注释掉原有的背景颜色，添加照片：
-
-<p>.left-col {<br>    &#x2F;* background:#fff; *&#x2F;<br>    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),<br>    url(‘<a target="_blank" rel="noopener" href="http://bucket836.oss-cn-shenzhen.aliyuncs.com/wallpaper/381535373.jpeg">http://bucket836.oss-cn-shenzhen.aliyuncs.com/wallpaper/381535373.jpeg</a>‘) no-repeat 0% 20%&#x2F; cover;<br>    width:300px;<br>    position:fixed;<br>    opacity:1;<br>    transition:all .3s ease-in;<br>    -ms-transition: all .3s ease-in;<br>    height:100%;<br>    z-index:999<br>}<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>根据背景图片修改字体颜色（这步可以自定义），我是将color:#696969改成color:#673ab7:git</p>
-<p> .left-col #header a {</p>
-<ul>
-<li>color:#696969</li>
-</ul>
-<ul>
-<li>color:#673ab7^M<br> }<br> .left-col #header a:hover {</li>
-</ul>
-<ul>
-<li>color:#b0a0aa</li>
-</ul>
-<ul>
-<li>color: #03A9F4^M<br> }<br> .left-col #header .header-subtitle {<br>text-align:center;</li>
-</ul>
-<ul>
-<li>color:#999;</li>
-</ul>
-<ul>
-<li>color:#673ab7;<br>font-size:18px;<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>2.右边的文章<br>调整背景颜色为透明<br>主要是将白色背景变成透明的，background:#fff;–&gt;background: rgba(255,255,255,.5);调整后Git</li>
-</ul>
-<p> .article {</p>
-<ul>
-<li>margin:30px;</li>
-<li>position:relative;</li>
-<li>border:1px solid #ddd;</li>
-<li>border-top:1px solid #fff;</li>
-<li>border-bottom:1px solid #fff;</li>
-<li>background:#fff;</li>
-<li>&#x2F;* background: rgba(255,255,255,.5); *&#x2F;</li>
-<li>transition:all .2s ease-in</li>
-</ul>
-<ul>
-<li>margin: 30px;^M</li>
-<li>border: 1px solid #ddd;^M</li>
-<li>border-top: 1px solid #fff;^M</li>
-<li>border-bottom: 1px solid #fff;^M</li>
-<li>background: rgba(255,255,255,.5);^M</li>
-<li>transition: all .2s ease-in^M<br> }</li>
-</ul>
-<p>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15<br>16<br>即：</p>
-<p>.article {<br>    margin: 30px;<br>    border: 1px solid #ddd;<br>    border-top: 1px solid #fff;<br>    border-bottom: 1px solid #fff;<br>    background: rgba(255,255,255,.5);<br>    transition: all .2s ease-in<br>}<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>取消右侧栏背景颜色<br>（2019-11-18补充）该背景可能会遮住全局背景，因此应该取消掉，如果已取消可忽略。</p>
-<p>3.添加背景图片<br>将白色background-color:#fff;替换为照片：</p>
-<p>body {<br>————————————————<br>版权声明：本文为CSDN博主「秦时明月之君临天下」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_41287260/article/details/103050813">https://blog.csdn.net/weixin_41287260/article/details/103050813</a></p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/blog.github.io/2023/03/03/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0Test/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
