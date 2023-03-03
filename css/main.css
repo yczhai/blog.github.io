@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #8cdfff;
+  background: #a177da;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2290,7 +2290,7 @@ embed {
   white-space: nowrap;
 }
 body {
-  background: url("/images/zhaiyachao.png");
+  background: url("/images/zhaiyachao1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
@@ -2307,6 +2307,10 @@ body {
   transition-duration: 0.4s;
   opacity: 0.85;
   border-radius: 10px 10px 10px 10px;
+}
+.content {
+  padding-top: 15px;
+  opacity: 0.9;
 }
 .post-block {
   background: var(--content-bg-color);
