@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #a177da;
+  background: #6effff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2290,10 +2290,10 @@ embed {
   white-space: nowrap;
 }
 body {
-  background: url("/images/zhaiyachao1.jpg");
+  background: url("https://img-blog.csdnimg.cn/31287b8e897d463c987a6ffd1d2dfd96.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 50% 50%;
+  background-position: 10% 10%;
   color: var(--text-color);
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
@@ -2310,7 +2310,7 @@ body {
 }
 .content {
   padding-top: 15px;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 .post-block {
   background: var(--content-bg-color);
